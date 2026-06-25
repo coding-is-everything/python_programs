@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Theft Auto VI — Coming 2026</title>
+    <meta name="description" content="Grand Theft Auto VI. The next chapter. Coming to PlayStation 5 and Xbox Series X|S.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pricedown&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-logo">VI</div>
+        <div class="loader-bar"><span></span></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">GTA<span>VI</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#trailer" class="nav-link">Trailer</a></li>
+                <li><a href="#characters" class="nav-link">Characters</a></li>
+                <li><a href="#world" class="nav-link">World</a></li>
+                <li><a href="#news" class="nav-link">News</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#buy" class="btn btn-primary">Pre-Order</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="sun"></div>
+            <div class="grid-floor"></div>
+            <div class="palms">
+                <div class="palm p1"></div>
+                <div class="palm p2"></div>
+                <div class="palm p3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tagline">Coming May 26, 2026</p>
+            <h1 class="hero-title">
+                <span class="title-grand">GRAND THEFT AUTO</span>
+                <span class="title-vi">VI</span>
+            </h1>
+            <p class="hero-sub">Two people. One city. No rules. Welcome back to Vice City.</p>
+            <div class="hero-actions">
+                <a href="#trailer" class="btn btn-primary">Watch Trailer</a>
+                <a href="#buy" class="btn btn-outline">Pre-Order Now</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="mouse"><div class="wheel"></div></div>
+        </div>
+    </section>
+
+    <!-- Trailer -->
+    <section class="trailer" id="trailer">
+        <div class="section-header">
+            <span class="section-tag">Official Trailer</span>
+            <h2 class="section-title">A World of <em>Excess</em></h2>
+        </div>
+        <div class="trailer-frame">
+            <div class="trailer-video" id="trailerVideo">
+                <div class="play-btn" id="playBtn">
+                    <svg viewBox="0 0 24 24" width="48" height="48"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+                </div>
+                <div class="trailer-overlay"></div>
+            </div>
+        </div>
+        <p class="trailer-caption">Official Trailer 1 — Vice City, Leonida</p>
+    </section>
+
+    <!-- Characters -->
+    <section class="characters" id="characters">
+        <div class="section-header">
+            <span class="section-tag">The Story</span>
+            <h2 class="section-title">Meet the <em>Partners in Crime</em></h2>
+        </div>
+        <div class="character-grid">
+            <article class="character-card" data-char="lucia">
+                <div class="char-img lucia"></div>
+                <div class="char-info">
+                    <h3>Lucia</h3>
+                    <p>Fresh out of prison and ready to take what's hers. A survivor with nothing left to lose.</p>
+                    <span class="char-role">The Fighter</span>
+                </div>
+            </article>
+            <article class="character-card" data-char="jason">
+                <div class="char-img jason"></div>
+                <div class="char-info">
+                    <h3>Jason</h3>
+                    <p>Wants an easy life but keeps finding trouble. Lucia's partner, in crime and in love.</p>
+                    <span class="char-role">The Dreamer</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- World -->
+    <section class="world" id="world">
+        <div class="section-header">
+            <span class="section-tag">The Map</span>
+            <h2 class="section-title">Welcome to <em>Leonida</em></h2>
+        </div>
+        <div class="world-grid">
+            <div class="world-feature">
+                <div class="world-visual"></div>
+            </div>
+            <div class="world-details">
+                <div class="world-stat">
+                    <h3 data-count="1">1</h3>
+                    <p>Massive open world state spanning beaches, swamps, and city streets</p>
+                </div>
+                <div class="world-stat">
+                    <h3 data-count="2">2</h3>
+                    <p>Playable protagonists you can switch between at any time</p>
+                </div>
+                <div class="world-stat">
+                    <h3>∞</h3>
+                    <p>Ways to live the Vice City dream — or watch it burn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section class="news" id="news">
+        <div class="section-header">
+            <span class="section-tag">Latest Updates</span>
+            <h2 class="section-title">The <em>Wire</em></h2>
+        </div>
+        <div class="news-grid">
+            <article class="news-card">
+                <div class="news-date">JUN 2025</div>
+                <h3>Trailer 2 Drops</h3>
+                <p>Get a deeper look at Lucia and Jason's life on the run across Leonida. 90 seconds of pure chaos.</p>
+                <a href="#" class="news-link">Read More →</a>
+            </article>
+            <article class="news-card">
+                <div class="news-date">DEC 2023</div>
+                <h3>First Look Revealed</h3>
+                <p>Rockstar unveils the first official trailer for GTA VI, returning to the sun-soaked Vice City.</p>
+                <a href="#" class="news-link">Read More →</a>
+            </article>
+            <article class="news-card">
+                <div class="news-date">MAY 2026</div>
+                <h3>Launch Day</h3>
+                <p>Grand Theft Auto VI arrives on PlayStation 5 and Xbox Series X|S. The wait is over.</p>
+                <a href="#" class="news-link">Read More →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Pre-order / CTA -->
+    <section class="cta-section" id="buy">
+        <div class="cta-content">
+            <h2>Secure Your <em>Copy</em></h2>
+            <p>Pre-order now and be among the first to return to Vice City.</p>
+            <div class="platforms">
+                <span class="platform">PlayStation 5</span>
+                <span class="platform">Xbox Series X|S</span>
+                <span class="platform platform-soon">PC — Coming Later</span>
+            </div>
+            <div class="cta-editions">
+                <div class="edition">
+                    <h4>Standard Edition</h4>
+                    <div class="price">$69.99</div>
+                    <a href="#" class="btn btn-outline">Select</a>
+                </div>
+                <div class="edition featured">
+                    <div class="badge">Most Popular</div>
+                    <h4>Deluxe Edition</h4>
+                    <div class="price">$99.99</div>
+                    <ul>
+                        <li>Base Game</li>
+                        <li>Bonus in-game cash</li>
+                        <li>Exclusive vehicle</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Select</a>
+                </div>
+                <div class="edition">
+                    <h4>Collector's Edition</h4>
+                    <div class="price">$179.99</div>
+                    <a href="#" class="btn btn-outline">Select</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">GTA<span>VI</span></div>
+            <p class="footer-disclaimer">This is a fan-made concept website created for demonstration purposes. Not affiliated with Rockstar Games or Take-Two Interactive. All trademarks belong to their respective owners.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Support</a>
+                <a href="#">Rockstar Games</a>
+            </div>
+            <p class="footer-copy">© 2026 Vice City Concepts. Made with neon and nostalgia.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
