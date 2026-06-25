@@ -10,6 +10,8 @@ Every project lives in its own top-level folder:
 pythons/
 │
 ├── expense_tracker/      # CLI app for tracking daily expenses (CRUD, modular design)
+├── password_manager/     # CLI password manager with Fernet encryption (in progress)
+├── gta6-website/         # Static HTML/CSS/JS landing page (non-Python, front-end demo)
 ├── <next_project>/       # ...
 └── README.md             # This file — index of all projects
 ```
@@ -19,6 +21,8 @@ pythons/
 | Project | Description | Key Concepts |
 |---|---|---|
 | [expense_tracker](expense_tracker/README.md) | CLI app to add, view, update, and delete expenses | Lists, dictionaries, CRUD, modular architecture, error handling |
+| [password_manager](password_manager/README.md) | CLI password manager that encrypts and stores credentials (in progress) | Symmetric encryption (`cryptography`/Fernet), key management, file I/O, modular architecture |
+| [gta6-website](gta6-website/index.html) | Static fan-made landing page for a fictional game launch — not a Python project, kept here as a front-end practice piece | HTML5, CSS animations/layout, vanilla JS (nav, scroll, loader) |
 
 > New projects are added here as they're created — each row links to that project's own README for details.
 
